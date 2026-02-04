@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Lato", sans-serif;
+  font-weight: small;
+  font-style: normal;
+}
+
+img {
+  width: 55%;
+  height: auto;
+  transition:
+    transform 0.3s ease-in-out,
+    filter 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.3rem rgb(192, 225, 255));
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.grid-container .grid-item {
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition:
+    transform 0.3s ease-in-out,
+    filter 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
