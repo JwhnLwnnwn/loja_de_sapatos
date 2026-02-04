@@ -33,7 +33,31 @@ img:hover {
   padding: 2rem;
 }
 
+.grid-container .destaque {
+  display: flex;
+  position: absolute;
+  gap: 0.5rem;
+  padding: 3rem 0rem;
+  z-index: 5;
+  font-size: small;
+  top: 6%;
+  left: 18%;
+}
+
+.frete {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem;
+}
+
+.novidade {
+  background-color: #ffc422;
+  color: white;
+  padding: 0.5rem;
+}
+
 .grid-container .grid-item {
+  position: relative;
   text-align: center;
   align-items: center;
   padding: 0.5rem;
