@@ -22,11 +22,12 @@ main {
 .grid-container .destaque {
   display: flex;
   width: fit-content;
-  position: absolute;
+  position: relative;
   gap: 0.5rem;
   padding: 3rem 0rem;
   z-index: 5;
-  left: 11%;
+  top: -1%;
+  left: 18%;
 
   font-size: 300;
 }
@@ -63,7 +64,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.35);
+  transform: scale(1.1);
   filter: drop-shadow(0 0 0.3rem rgb(192, 225, 255));
   cursor: pointer;
 }
