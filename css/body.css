@@ -34,6 +34,7 @@ img:hover {
 }
 
 .grid-container .destaque {
+  width: fit-content;
   display: flex;
   position: absolute;
   gap: 0.5rem;
